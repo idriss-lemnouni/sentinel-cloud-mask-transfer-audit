@@ -1,0 +1,729 @@
+{
+  "protocol": {
+    "calibration_scenes": 4,
+    "test_scenes": 6,
+    "sample": "ROI_00268__20190213T071201_20190213T071519_T38KNV",
+    "probability_threshold": 0.4
+  },
+  "calibration": {
+    "0.2": 0.7112532301817833,
+    "0.3": 0.7644127073178599,
+    "0.4": 0.7693483287834715,
+    "0.5": 0.752949484717169,
+    "0.6": 0.7358401350222731,
+    "0.7": 0.719044859784381,
+    "0.8": 0.6965354442818652
+  },
+  "scenes": [
+    {
+      "id": "ROI_00268__20190213T071201_20190213T071519_T38KNV",
+      "roi": "ROI_00268",
+      "region": "AF",
+      "pixels": 259081,
+      "indices": {
+        "SCL": {
+          "NDVI": {
+            "reference_clear_pixels": 60431,
+            "retained_pixels": 234529,
+            "retained_obscured_pixels": 174102,
+            "reference_mean": 0.3957957784326846,
+            "retained_mean": 0.3809230104254832,
+            "mean_shift": -0.014872768007201387
+          },
+          "NDMI": {
+            "reference_clear_pixels": 60431,
+            "retained_pixels": 234529,
+            "retained_obscured_pixels": 174102,
+            "reference_mean": -0.09608566659904308,
+            "retained_mean": -0.04564129781659207,
+            "mean_shift": 0.05044436878245101
+          },
+          "SAVI": {
+            "reference_clear_pixels": 60431,
+            "retained_pixels": 234529,
+            "retained_obscured_pixels": 174102,
+            "reference_mean": 0.2563389184368,
+            "retained_mean": 0.2279021256475616,
+            "mean_shift": -0.028436792789238413
+          }
+        },
+        "probability": {
+          "NDVI": {
+            "reference_clear_pixels": 60431,
+            "retained_pixels": 207815,
+            "retained_obscured_pixels": 147385,
+            "reference_mean": 0.3957957784326846,
+            "retained_mean": 0.39821533905494816,
+            "mean_shift": 0.0024195606222635613
+          },
+          "NDMI": {
+            "reference_clear_pixels": 60431,
+            "retained_pixels": 207815,
+            "retained_obscured_pixels": 147385,
+            "reference_mean": -0.09608566659904308,
+            "retained_mean": -0.05097541332313686,
+            "mean_shift": 0.04511025327590622
+          },
+          "SAVI": {
+            "reference_clear_pixels": 60431,
+            "retained_pixels": 207815,
+            "retained_obscured_pixels": 147385,
+            "reference_mean": 0.2563389184368,
+            "retained_mean": 0.23340681317671894,
+            "mean_shift": -0.022932105260081076
+          }
+        }
+      },
+      "SCL": {
+        "clear": {
+          "pixels": 60431,
+          "correct": 60427
+        },
+        "thick_cloud": {
+          "pixels": 120056,
+          "correct": 24500
+        },
+        "thin_cloud": {
+          "pixels": 0,
+          "correct": 0
+        },
+        "cloud_shadow": {
+          "pixels": 78594,
+          "correct": 48
+        }
+      },
+      "probability": {
+        "clear": {
+          "pixels": 60431,
+          "correct": 60430
+        },
+        "thick_cloud": {
+          "pixels": 120056,
+          "correct": 51231
+        },
+        "thin_cloud": {
+          "pixels": 0,
+          "correct": 0
+        },
+        "cloud_shadow": {
+          "pixels": 78594,
+          "correct": 34
+        }
+      }
+    },
+    {
+      "id": "ROI_04797__20191006T092031_20191006T092031_T34RDT",
+      "roi": "ROI_04797",
+      "region": "AF",
+      "pixels": 259081,
+      "indices": {
+        "SCL": {
+          "NDVI": {
+            "reference_clear_pixels": 71708,
+            "retained_pixels": 211580,
+            "retained_obscured_pixels": 139918,
+            "reference_mean": 0.08355679843828957,
+            "retained_mean": 0.07432662511163367,
+            "mean_shift": -0.009230173326655905
+          },
+          "NDMI": {
+            "reference_clear_pixels": 71708,
+            "retained_pixels": 211580,
+            "retained_obscured_pixels": 139918,
+            "reference_mean": -0.1570378427679516,
+            "retained_mean": -0.1633559981568926,
+            "mean_shift": -0.00631815538894101
+          },
+          "SAVI": {
+            "reference_clear_pixels": 71708,
+            "retained_pixels": 211580,
+            "retained_obscured_pixels": 139918,
+            "reference_mean": 0.08574848751376624,
+            "retained_mean": 0.06454486525555819,
+            "mean_shift": -0.021203622258208044
+          }
+        },
+        "probability": {
+          "NDVI": {
+            "reference_clear_pixels": 71708,
+            "retained_pixels": 173302,
+            "retained_obscured_pixels": 102111,
+            "reference_mean": 0.08355679843828957,
+            "retained_mean": 0.07949488258677022,
+            "mean_shift": -0.004061915851519354
+          },
+          "NDMI": {
+            "reference_clear_pixels": 71708,
+            "retained_pixels": 173302,
+            "retained_obscured_pixels": 102111,
+            "reference_mean": -0.1570378427679516,
+            "retained_mean": -0.17325309560867008,
+            "mean_shift": -0.01621525284071848
+          },
+          "SAVI": {
+            "reference_clear_pixels": 71708,
+            "retained_pixels": 173302,
+            "retained_obscured_pixels": 102111,
+            "reference_mean": 0.08574848751376624,
+            "retained_mean": 0.06799547738539449,
+            "mean_shift": -0.017753010128371743
+          }
+        }
+      },
+      "SCL": {
+        "clear": {
+          "pixels": 71708,
+          "correct": 71662
+        },
+        "thick_cloud": {
+          "pixels": 98309,
+          "correct": 47415
+        },
+        "thin_cloud": {
+          "pixels": 0,
+          "correct": 0
+        },
+        "cloud_shadow": {
+          "pixels": 89064,
+          "correct": 40
+        }
+      },
+      "probability": {
+        "clear": {
+          "pixels": 71708,
+          "correct": 71191
+        },
+        "thick_cloud": {
+          "pixels": 98309,
+          "correct": 78667
+        },
+        "thin_cloud": {
+          "pixels": 0,
+          "correct": 0
+        },
+        "cloud_shadow": {
+          "pixels": 89064,
+          "correct": 6595
+        }
+      }
+    },
+    {
+      "id": "ROI_00264__20200628T075611_20200628T082104_T35HKD",
+      "roi": "ROI_00264",
+      "region": "AF",
+      "pixels": 259081,
+      "indices": {
+        "SCL": {
+          "NDVI": {
+            "reference_clear_pixels": 123560,
+            "retained_pixels": 178137,
+            "retained_obscured_pixels": 54837,
+            "reference_mean": 0.20105370230778707,
+            "retained_mean": 0.18960536038245956,
+            "mean_shift": -0.01144834192532751
+          },
+          "NDMI": {
+            "reference_clear_pixels": 123560,
+            "retained_pixels": 178137,
+            "retained_obscured_pixels": 54837,
+            "reference_mean": -0.13897698146933915,
+            "retained_mean": -0.1350636604648418,
+            "mean_shift": 0.003913321004497344
+          },
+          "SAVI": {
+            "reference_clear_pixels": 123560,
+            "retained_pixels": 178137,
+            "retained_obscured_pixels": 54837,
+            "reference_mean": 0.12246231482750934,
+            "retained_mean": 0.11039718922099681,
+            "mean_shift": -0.01206512560651253
+          }
+        },
+        "probability": {
+          "NDVI": {
+            "reference_clear_pixels": 123560,
+            "retained_pixels": 227928,
+            "retained_obscured_pixels": 104438,
+            "reference_mean": 0.20105370230778707,
+            "retained_mean": 0.20195961042130123,
+            "mean_shift": 0.0009059081135141533
+          },
+          "NDMI": {
+            "reference_clear_pixels": 123560,
+            "retained_pixels": 227928,
+            "retained_obscured_pixels": 104438,
+            "reference_mean": -0.13897698146933915,
+            "retained_mean": -0.1329862534276258,
+            "mean_shift": 0.005990728041713356
+          },
+          "SAVI": {
+            "reference_clear_pixels": 123560,
+            "retained_pixels": 227928,
+            "retained_obscured_pixels": 104438,
+            "reference_mean": 0.12246231482750934,
+            "retained_mean": 0.08882445884296124,
+            "mean_shift": -0.033637855984548104
+          }
+        }
+      },
+      "SCL": {
+        "clear": {
+          "pixels": 123560,
+          "correct": 123300
+        },
+        "thick_cloud": {
+          "pixels": 41908,
+          "correct": 17515
+        },
+        "thin_cloud": {
+          "pixels": 0,
+          "correct": 0
+        },
+        "cloud_shadow": {
+          "pixels": 93613,
+          "correct": 63169
+        }
+      },
+      "probability": {
+        "clear": {
+          "pixels": 123560,
+          "correct": 123490
+        },
+        "thick_cloud": {
+          "pixels": 41908,
+          "correct": 30863
+        },
+        "thin_cloud": {
+          "pixels": 0,
+          "correct": 0
+        },
+        "cloud_shadow": {
+          "pixels": 93613,
+          "correct": 220
+        }
+      }
+    },
+    {
+      "id": "ROI_00309__20181220T130241_20181220T130239_T24LTJ",
+      "roi": "ROI_00309",
+      "region": "SA",
+      "pixels": 259081,
+      "indices": {
+        "SCL": {
+          "NDVI": {
+            "reference_clear_pixels": 179835,
+            "retained_pixels": 252275,
+            "retained_obscured_pixels": 72509,
+            "reference_mean": 0.6847343631547955,
+            "retained_mean": 0.6574741257100699,
+            "mean_shift": -0.02726023744472561
+          },
+          "NDMI": {
+            "reference_clear_pixels": 179835,
+            "retained_pixels": 252275,
+            "retained_obscured_pixels": 72509,
+            "reference_mean": 0.17547271241819706,
+            "retained_mean": 0.1748166589623567,
+            "mean_shift": -0.0006560534558403552
+          },
+          "SAVI": {
+            "reference_clear_pixels": 179835,
+            "retained_pixels": 252275,
+            "retained_obscured_pixels": 72509,
+            "reference_mean": 0.4997352298915637,
+            "retained_mean": 0.46478975476457013,
+            "mean_shift": -0.034945475126993586
+          }
+        },
+        "probability": {
+          "NDVI": {
+            "reference_clear_pixels": 179835,
+            "retained_pixels": 232674,
+            "retained_obscured_pixels": 52973,
+            "reference_mean": 0.6847343631547955,
+            "retained_mean": 0.677766278758256,
+            "mean_shift": -0.006968084396539509
+          },
+          "NDMI": {
+            "reference_clear_pixels": 179835,
+            "retained_pixels": 232674,
+            "retained_obscured_pixels": 52973,
+            "reference_mean": 0.17547271241819706,
+            "retained_mean": 0.18046773035257457,
+            "mean_shift": 0.00499501793437751
+          },
+          "SAVI": {
+            "reference_clear_pixels": 179835,
+            "retained_pixels": 232674,
+            "retained_obscured_pixels": 52973,
+            "reference_mean": 0.4997352298915637,
+            "retained_mean": 0.4741523287742877,
+            "mean_shift": -0.025582901117276013
+          }
+        }
+      },
+      "SCL": {
+        "clear": {
+          "pixels": 179835,
+          "correct": 179766
+        },
+        "thick_cloud": {
+          "pixels": 49197,
+          "correct": 6317
+        },
+        "thin_cloud": {
+          "pixels": 224,
+          "correct": 0
+        },
+        "cloud_shadow": {
+          "pixels": 29825,
+          "correct": 420
+        }
+      },
+      "probability": {
+        "clear": {
+          "pixels": 179835,
+          "correct": 179701
+        },
+        "thick_cloud": {
+          "pixels": 49197,
+          "correct": 26170
+        },
+        "thin_cloud": {
+          "pixels": 224,
+          "correct": 0
+        },
+        "cloud_shadow": {
+          "pixels": 29825,
+          "correct": 103
+        }
+      }
+    },
+    {
+      "id": "ROI_00159__20190718T143751_20190718T144610_T19HBV",
+      "roi": "ROI_00159",
+      "region": "SA",
+      "pixels": 259081,
+      "indices": {
+        "SCL": {
+          "NDVI": {
+            "reference_clear_pixels": 182685,
+            "retained_pixels": 232175,
+            "retained_obscured_pixels": 60363,
+            "reference_mean": 0.5976799608306923,
+            "retained_mean": 0.5721860733348234,
+            "mean_shift": -0.025493887495868894
+          },
+          "NDMI": {
+            "reference_clear_pixels": 182685,
+            "retained_pixels": 232175,
+            "retained_obscured_pixels": 60363,
+            "reference_mean": 0.2198158623345031,
+            "retained_mean": 0.204264597274422,
+            "mean_shift": -0.015551265060081088
+          },
+          "SAVI": {
+            "reference_clear_pixels": 182685,
+            "retained_pixels": 232175,
+            "retained_obscured_pixels": 60363,
+            "reference_mean": 0.30784007880988096,
+            "retained_mean": 0.30203747760522437,
+            "mean_shift": -0.005802601204656588
+          }
+        },
+        "probability": {
+          "NDVI": {
+            "reference_clear_pixels": 182685,
+            "retained_pixels": 240630,
+            "retained_obscured_pixels": 62618,
+            "reference_mean": 0.5976799608306923,
+            "retained_mean": 0.5630711179334359,
+            "mean_shift": -0.03460884289725641
+          },
+          "NDMI": {
+            "reference_clear_pixels": 182685,
+            "retained_pixels": 240630,
+            "retained_obscured_pixels": 62618,
+            "reference_mean": 0.2198158623345031,
+            "retained_mean": 0.1954106992420347,
+            "mean_shift": -0.0244051630924684
+          },
+          "SAVI": {
+            "reference_clear_pixels": 182685,
+            "retained_pixels": 240630,
+            "retained_obscured_pixels": 62618,
+            "reference_mean": 0.30784007880988096,
+            "retained_mean": 0.28461603911458183,
+            "mean_shift": -0.023224039695299126
+          }
+        }
+      },
+      "SCL": {
+        "clear": {
+          "pixels": 182685,
+          "correct": 171812
+        },
+        "thick_cloud": {
+          "pixels": 54575,
+          "correct": 5639
+        },
+        "thin_cloud": {
+          "pixels": 0,
+          "correct": 0
+        },
+        "cloud_shadow": {
+          "pixels": 21821,
+          "correct": 10394
+        }
+      },
+      "probability": {
+        "clear": {
+          "pixels": 182685,
+          "correct": 178012
+        },
+        "thick_cloud": {
+          "pixels": 54575,
+          "correct": 13432
+        },
+        "thin_cloud": {
+          "pixels": 0,
+          "correct": 0
+        },
+        "cloud_shadow": {
+          "pixels": 21821,
+          "correct": 346
+        }
+      }
+    },
+    {
+      "id": "ROI_05860__20190327T125311_20190327T125307_T24KTB",
+      "roi": "ROI_05860",
+      "region": "SA",
+      "pixels": 259081,
+      "indices": {
+        "SCL": {
+          "NDVI": {
+            "reference_clear_pixels": 126238,
+            "retained_pixels": 179708,
+            "retained_obscured_pixels": 53476,
+            "reference_mean": 0.5946219830594822,
+            "retained_mean": 0.566974671181522,
+            "mean_shift": -0.027647311877960212
+          },
+          "NDMI": {
+            "reference_clear_pixels": 126238,
+            "retained_pixels": 179708,
+            "retained_obscured_pixels": 53476,
+            "reference_mean": 0.08897957652531298,
+            "retained_mean": 0.0902239704026222,
+            "mean_shift": 0.0012443938773092217
+          },
+          "SAVI": {
+            "reference_clear_pixels": 126238,
+            "retained_pixels": 179708,
+            "retained_obscured_pixels": 53476,
+            "reference_mean": 0.4069671487870433,
+            "retained_mean": 0.3634040191272965,
+            "mean_shift": -0.043563129659746846
+          }
+        },
+        "probability": {
+          "NDVI": {
+            "reference_clear_pixels": 126238,
+            "retained_pixels": 175343,
+            "retained_obscured_pixels": 58081,
+            "reference_mean": 0.5946219830594822,
+            "retained_mean": 0.6076354664352024,
+            "mean_shift": 0.01301348337572017
+          },
+          "NDMI": {
+            "reference_clear_pixels": 126238,
+            "retained_pixels": 175343,
+            "retained_obscured_pixels": 58081,
+            "reference_mean": 0.08897957652531298,
+            "retained_mean": 0.10370920750820631,
+            "mean_shift": 0.01472963098289333
+          },
+          "SAVI": {
+            "reference_clear_pixels": 126238,
+            "retained_pixels": 175343,
+            "retained_obscured_pixels": 58081,
+            "reference_mean": 0.4069671487870433,
+            "retained_mean": 0.3380578059575333,
+            "mean_shift": -0.06890934282951
+          }
+        }
+      },
+      "SCL": {
+        "clear": {
+          "pixels": 126238,
+          "correct": 126232
+        },
+        "thick_cloud": {
+          "pixels": 75599,
+          "correct": 49146
+        },
+        "thin_cloud": {
+          "pixels": 0,
+          "correct": 0
+        },
+        "cloud_shadow": {
+          "pixels": 57244,
+          "correct": 30221
+        }
+      },
+      "probability": {
+        "clear": {
+          "pixels": 126238,
+          "correct": 117262
+        },
+        "thick_cloud": {
+          "pixels": 75599,
+          "correct": 71342
+        },
+        "thin_cloud": {
+          "pixels": 0,
+          "correct": 0
+        },
+        "cloud_shadow": {
+          "pixels": 57244,
+          "correct": 3420
+        }
+      }
+    }
+  ],
+  "test_by_region": {
+    "AF": {
+      "SCL": {
+        "pixels_by_reference_class": {
+          "clear": {
+            "pixels": 255699,
+            "correct": 255389
+          },
+          "thick_cloud": {
+            "pixels": 260273,
+            "correct": 89430
+          },
+          "thin_cloud": {
+            "pixels": 0,
+            "correct": 0
+          },
+          "cloud_shadow": {
+            "pixels": 261271,
+            "correct": 63257
+          }
+        },
+        "balanced_accuracy_binary": 0.6457736062204429
+      },
+      "probability": {
+        "pixels_by_reference_class": {
+          "clear": {
+            "pixels": 255699,
+            "correct": 255111
+          },
+          "thick_cloud": {
+            "pixels": 260273,
+            "correct": 160761
+          },
+          "thin_cloud": {
+            "pixels": 0,
+            "correct": 0
+          },
+          "cloud_shadow": {
+            "pixels": 261271,
+            "correct": 6849
+          }
+        },
+        "balanced_accuracy_binary": 0.6595365572928444
+      }
+    },
+    "SA": {
+      "SCL": {
+        "pixels_by_reference_class": {
+          "clear": {
+            "pixels": 488758,
+            "correct": 477810
+          },
+          "thick_cloud": {
+            "pixels": 179371,
+            "correct": 61102
+          },
+          "thin_cloud": {
+            "pixels": 224,
+            "correct": 0
+          },
+          "cloud_shadow": {
+            "pixels": 108890,
+            "correct": 41035
+          }
+        },
+        "balanced_accuracy_binary": 0.6658232521122126
+      },
+      "probability": {
+        "pixels_by_reference_class": {
+          "clear": {
+            "pixels": 488758,
+            "correct": 474975
+          },
+          "thick_cloud": {
+            "pixels": 179371,
+            "correct": 110944
+          },
+          "thin_cloud": {
+            "pixels": 224,
+            "correct": 0
+          },
+          "cloud_shadow": {
+            "pixels": 108890,
+            "correct": 3869
+          }
+        },
+        "balanced_accuracy_binary": 0.6848929902735327
+      }
+    }
+  },
+  "test": {
+    "SCL": {
+      "pixels_by_reference_class": {
+        "clear": {
+          "pixels": 744457,
+          "correct": 733199
+        },
+        "thick_cloud": {
+          "pixels": 439644,
+          "correct": 150532
+        },
+        "thin_cloud": {
+          "pixels": 224,
+          "correct": 0
+        },
+        "cloud_shadow": {
+          "pixels": 370161,
+          "correct": 104292
+        }
+      },
+      "balanced_accuracy_binary": 0.6497319181909254
+    },
+    "probability": {
+      "pixels_by_reference_class": {
+        "clear": {
+          "pixels": 744457,
+          "correct": 730086
+        },
+        "thick_cloud": {
+          "pixels": 439644,
+          "correct": 271705
+        },
+        "thin_cloud": {
+          "pixels": 224,
+          "correct": 0
+        },
+        "cloud_shadow": {
+          "pixels": 370161,
+          "correct": 10718
+        }
+      },
+      "balanced_accuracy_binary": 0.6646769423869378
+    }
+  }
+}

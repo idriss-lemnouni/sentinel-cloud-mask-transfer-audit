@@ -1,0 +1,275 @@
+{
+  "dataset": "https://huggingface.co/datasets/tacofoundation/cloudsen12",
+  "scenes": [
+    {
+      "id": "ROI_08854__20200708T102559_20200708T103435_T32TMR",
+      "roi": "ROI_08854",
+      "region": "EU",
+      "split": "validation",
+      "size": 509,
+      "s2_id": "S2B_MSIL1C_20200708T102559_N0209_R108_T32TMR_20200708T124214",
+      "probability_scale": 100,
+      "files": {
+        "reflectance.tif": {
+          "bytes": 2040285,
+          "sha256": "cdea8b8a319e92ebec12d12084a82d44c8313be0870700bacef44746baabdb7d"
+        },
+        "labels.tif": {
+          "bytes": 7173,
+          "sha256": "bc0b6ad332a94c8cb4e648a62775a654a865e2090ec6cc1295857af4f79ee850"
+        },
+        "scl.tif": {
+          "bytes": 9869,
+          "sha256": "a188cfc15bdc4672ff217ee0bdec5651450ba30460ea0ab811f75af608584f3a"
+        },
+        "probability.tif": {
+          "bytes": 104612,
+          "sha256": "d88066cb993741ae7d4a44b69a3460020f02b8faca41e982479f8c3a78e8287c"
+        }
+      }
+    },
+    {
+      "id": "ROI_00931__20200608T075621_20200608T080252_T39UVB",
+      "roi": "ROI_00931",
+      "region": "EU",
+      "split": "validation",
+      "size": 509,
+      "s2_id": "S2A_MSIL1C_20200608T075621_N0209_R035_T39UVB_20200608T094823",
+      "probability_scale": 100,
+      "files": {
+        "reflectance.tif": {
+          "bytes": 1315297,
+          "sha256": "44d8314974e27cf19e89b7cce24d90c00716a2922f48373ad6b03b923ef98dd6"
+        },
+        "labels.tif": {
+          "bytes": 10797,
+          "sha256": "f20370d8b228f9ffd4b9ccf08fc96c3ae8107de8af2287464e92d21dd1819702"
+        },
+        "scl.tif": {
+          "bytes": 3338,
+          "sha256": "7ccbf1265daf9c329e8192a0cbd42ea40954a5512f63914f2b47e1917c284c86"
+        },
+        "probability.tif": {
+          "bytes": 78114,
+          "sha256": "735e9e5eb3f3833ee8a6e0011579cfca799f16e8511cf6e6cc151a4cd49ddccf"
+        }
+      }
+    },
+    {
+      "id": "ROI_11836__20190529T155911_20190529T160405_T17RMH",
+      "roi": "ROI_11836",
+      "region": "NA",
+      "split": "validation",
+      "size": 509,
+      "s2_id": "S2A_MSIL1C_20190529T155911_N0207_R097_T17RMH_20190529T211616",
+      "probability_scale": 100,
+      "files": {
+        "reflectance.tif": {
+          "bytes": 1762925,
+          "sha256": "b2cd0b0edaba7ddb10bf490207045a92d59aecc83054ca4768dc65fdb2be4ecf"
+        },
+        "labels.tif": {
+          "bytes": 5585,
+          "sha256": "1ef8711e8edec07ff5b72d7ed039d4d2b7c5aa267d28816539b9141a21493d46"
+        },
+        "scl.tif": {
+          "bytes": 8202,
+          "sha256": "0e1aacac06fac9bc95e068b6a926315c19b95b05ae10cde7e8deb8f0f551db8b"
+        },
+        "probability.tif": {
+          "bytes": 112348,
+          "sha256": "80511c1b776c4357f5d9173f5e1a76ce3da1f9fea14ee00cb7ebb8bab31adc91"
+        }
+      }
+    },
+    {
+      "id": "ROI_11860__20190724T161911_20190724T162524_T17TMN",
+      "roi": "ROI_11860",
+      "region": "NA",
+      "split": "validation",
+      "size": 509,
+      "s2_id": "S2A_MSIL1C_20190724T161911_N0208_R040_T17TMN_20190724T194506",
+      "probability_scale": 100,
+      "files": {
+        "reflectance.tif": {
+          "bytes": 1870646,
+          "sha256": "377bb35ca4b38e7508dc714afa9a9f9bc948e918851269f01c33049484f3874f"
+        },
+        "labels.tif": {
+          "bytes": 9411,
+          "sha256": "994f6f9d8b96747c60ed880cfde223d2e58df3c0f2009a51e85bfc4b2f1e5aba"
+        },
+        "scl.tif": {
+          "bytes": 8627,
+          "sha256": "45499ca2a29f69f367b38b200ac6a61cd99c2d5ba119af48d0026e188326037e"
+        },
+        "probability.tif": {
+          "bytes": 145632,
+          "sha256": "3fb4c24f87abd68227b1de98787a537c3b4c8259cf1f70bf9992a29ecd5c17d1"
+        }
+      }
+    },
+    {
+      "id": "ROI_00268__20190213T071201_20190213T071519_T38KNV",
+      "roi": "ROI_00268",
+      "region": "AF",
+      "split": "test",
+      "size": 509,
+      "s2_id": "S2A_MSIL1C_20190213T071201_N0207_R020_T38KNV_20190213T120359",
+      "probability_scale": 100,
+      "files": {
+        "reflectance.tif": {
+          "bytes": 1887454,
+          "sha256": "4cb3b24eec9bc03ba18043b42078e773d0530f5d2939ee0be0c6d2125145f6f7"
+        },
+        "labels.tif": {
+          "bytes": 7961,
+          "sha256": "40c4e976da8060354e22e92677a8ce7bbfe45e1118eb6e716c9009c195a74471"
+        },
+        "scl.tif": {
+          "bytes": 13892,
+          "sha256": "b5660bd2817a0426fa0db20babfe133e65cb3f920200f8e8839464f1d8a71961"
+        },
+        "probability.tif": {
+          "bytes": 97412,
+          "sha256": "5ac527426cf22e18fbfa61a66be9f2c92b42e8fc6b1c2f490580c4696569901d"
+        }
+      }
+    },
+    {
+      "id": "ROI_04797__20191006T092031_20191006T092031_T34RDT",
+      "roi": "ROI_04797",
+      "region": "AF",
+      "split": "test",
+      "size": 509,
+      "s2_id": "S2A_MSIL1C_20191006T092031_N0208_R093_T34RDT_20191006T105147",
+      "probability_scale": 100,
+      "files": {
+        "reflectance.tif": {
+          "bytes": 1973150,
+          "sha256": "9f98c26726be43d106a7be931d79cd45bbd93d0602b1f2b7a756973bacc96ba7"
+        },
+        "labels.tif": {
+          "bytes": 10461,
+          "sha256": "191743b0819e728a73eb5d57346ac390bf83bf50d4ba047c688fcc5457460a6b"
+        },
+        "scl.tif": {
+          "bytes": 5725,
+          "sha256": "e4a3f477665f8802a91a3116698ce1e9466b14447144aad12fe7fe25bc31bd29"
+        },
+        "probability.tif": {
+          "bytes": 139026,
+          "sha256": "bb1a4aefda2884629885a13afbea4709d98c0552d042768245bd1c0a1ff07041"
+        }
+      }
+    },
+    {
+      "id": "ROI_00264__20200628T075611_20200628T082104_T35HKD",
+      "roi": "ROI_00264",
+      "region": "AF",
+      "split": "test",
+      "size": 509,
+      "s2_id": "S2A_MSIL1C_20200628T075611_N0209_R035_T35HKD_20200628T101636",
+      "probability_scale": 100,
+      "files": {
+        "reflectance.tif": {
+          "bytes": 1692978,
+          "sha256": "ff836e94722228c3f858cd9ec424d32dda85d721eb7065a505afa17c7c192190"
+        },
+        "labels.tif": {
+          "bytes": 5091,
+          "sha256": "bafd60810bb03bb1273af50885580cf7226863618d4a28ae5350370a486cee3a"
+        },
+        "scl.tif": {
+          "bytes": 7865,
+          "sha256": "941fecc7210da4b76b755a587ae82c07599e5cf7f03d14f78134fbf99655e9f6"
+        },
+        "probability.tif": {
+          "bytes": 109128,
+          "sha256": "0802119ba4fd5f90cfe020453daf10125aad4d4b17343d8e8be412c04e9c652b"
+        }
+      }
+    },
+    {
+      "id": "ROI_00309__20181220T130241_20181220T130239_T24LTJ",
+      "roi": "ROI_00309",
+      "region": "SA",
+      "split": "test",
+      "size": 509,
+      "s2_id": "S2A_MSIL1C_20181220T130241_N0207_R095_T24LTJ_20181220T143033",
+      "probability_scale": 100,
+      "files": {
+        "reflectance.tif": {
+          "bytes": 1978353,
+          "sha256": "07e096b4690947c9c5e53c25ff9dc80fb2b7127ca80d46f1dfecc330381139ee"
+        },
+        "labels.tif": {
+          "bytes": 9221,
+          "sha256": "8d7dfdd3c0cad07dfce8c537500bd90a35f94590f458084acd2f8cce6bff2dc9"
+        },
+        "scl.tif": {
+          "bytes": 8127,
+          "sha256": "6e697bb75aba7fec897a3afc792f82cc2287572673142fc81f872d75ecf6c504"
+        },
+        "probability.tif": {
+          "bytes": 102311,
+          "sha256": "f7b02e38ef75e88e1930d9959065428c34e488b1764927c687a5adc06ae6990e"
+        }
+      }
+    },
+    {
+      "id": "ROI_00159__20190718T143751_20190718T144610_T19HBV",
+      "roi": "ROI_00159",
+      "region": "SA",
+      "split": "test",
+      "size": 509,
+      "s2_id": "S2A_MSIL1C_20190718T143751_N0208_R096_T19HBV_20190718T180104",
+      "probability_scale": 100,
+      "files": {
+        "reflectance.tif": {
+          "bytes": 2120133,
+          "sha256": "1ec08f35143eb4ebdf45fb8b687c418db49213a5134c913ebcbc432579640d64"
+        },
+        "labels.tif": {
+          "bytes": 12333,
+          "sha256": "7fac583586a3c3cdfaea1721575ff65ddfef1ed4aae5510893ea6f67e3b365fb"
+        },
+        "scl.tif": {
+          "bytes": 27381,
+          "sha256": "ce479da09da8d3d8516599c1af0c0595de58aa04111dd0a0b98bcd9eb34cf348"
+        },
+        "probability.tif": {
+          "bytes": 160336,
+          "sha256": "a43a86e24a14fa2e1ed09f15736a8311aca2d437571c2e8d1f40d975f36a552d"
+        }
+      }
+    },
+    {
+      "id": "ROI_05860__20190327T125311_20190327T125307_T24KTB",
+      "roi": "ROI_05860",
+      "region": "SA",
+      "split": "test",
+      "size": 509,
+      "s2_id": "S2A_MSIL1C_20190327T125311_N0207_R052_T24KTB_20190327T174851",
+      "probability_scale": 100,
+      "files": {
+        "reflectance.tif": {
+          "bytes": 1917111,
+          "sha256": "2446839ad70d4a2e589f3d496260b1cccc1a6de66c7fc83b50c7e0d6368a4c1e"
+        },
+        "labels.tif": {
+          "bytes": 9177,
+          "sha256": "314fdd59bdead4e39ab814aae87aae38ff53df23801fb167d8545fa8541d4d46"
+        },
+        "scl.tif": {
+          "bytes": 11719,
+          "sha256": "ab4e56df36707d6fd7a98647222aff0c911f7bccb541899872381f0aab7cd7b1"
+        },
+        "probability.tif": {
+          "bytes": 125266,
+          "sha256": "8c60f2196aea4eaa650a8010049365dc410c5f2ee761f86e4cb5d037603405e7"
+        }
+      }
+    }
+  ]
+}
